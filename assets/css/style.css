@@ -8,11 +8,11 @@ body {
 }
 
 a {
-  color: #ed502e;
+  color: #0099f8;
 }
 
 a:hover {
-  color: #f1775d;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #ed502e;
+  border: 6px solid #0099f8;
   border-top-color: white;
   border-radius: 50%;
   width: 60px;
@@ -91,13 +91,13 @@ h2, h3, h4, h5, h6 {
   height: 40px;
   border-radius: 4px;
   background: #fff;
-  color: #4d90f6;
+  color: #0099f8;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
   background: #fff;
-  color: #4d90f6;
+  color: #0099f8;
 }
 
 /*--------------------------------------------------------------
@@ -168,11 +168,11 @@ h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
 }
 
-.nav-menu a:hover {
-  color: #4d90f6;
+.nav-menu a:hover, .nav-menu li:hover > a  {
+  color: #3264af;
 }
 
-.nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu .active > a{
   color: #071527;
 }
 
@@ -206,7 +206,7 @@ h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #0b2341;
+  color: #fff;
 }
 
 .nav-menu .drop-down ul a:hover{
@@ -260,7 +260,7 @@ h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #ed502e;
+  background: #0099f8;
   color: #fff;
   border-radius: 4px;
   padding: 8px 25px 9px 25px;
@@ -271,7 +271,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #ef6445;
+  background: #3264af;
   color: #fff;
 }
 
@@ -299,7 +299,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #0b2341;
+  color: #071527;
 }
 
 .mobile-nav {
@@ -327,14 +327,19 @@ h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #0b2341;
+  color: #fff;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #ed502e;
+.mobile-nav a:hover, .mobile-nav li:hover > a {
+  color: #3264af;
+  text-decoration: none;
+}
+
+.mobile-nav .active > a {
+  color: #071527;
   text-decoration: none;
 }
 
