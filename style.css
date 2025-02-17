@@ -71,17 +71,6 @@ h2, h3, h4, h5, h6, p {
   transition: transform 0.6s;
 }
 
-.info-box p {
-  visibility: hidden;
-}
-
-.info-box:hover p {
-  visibility: visible;
-}
-
-.info-box:hover {
-  border: 2px solid white;
-}
 
 .info-box h3 {
   font-size: 30px;
@@ -98,23 +87,19 @@ h2, h3, h4, h5, h6, p {
 
 .spon-box {
   margin: 5%;
-  width: 400px;
+  width: auto;
+  height: 350px;
   padding: 20px;
   height: auto;
   align-items: center;
 
 }
 
-.spon-box:hover {
-  border-radius: 1%;
-  border: 2px white;
-  border-style: solid;
-  box-shadow: 5px 5px 10px blue;
-}
+
 
 .spon-box img{
-  width: 300px;
-  height: auto;
+  width: auto;
+  height: 300px;
 }
 
 /* Front and Back faces of the box */
@@ -183,6 +168,20 @@ h2, h3, h4, h5, h6, p {
   width: 80%;
   height: auto;
   padding: 50px;
+}
+
+.comp-container:hover {
+  border-radius: 1%;
+  border: 2px black;
+  border-style: solid;
+  box-shadow: 5px 5px 10px #071527;
+}
+
+.contact {
+  background-image: url(contents/Background/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /*--------------------------------------------------------------
 # Sections General
@@ -739,6 +738,13 @@ section .home {
 .achievements{
   background-image: url(contents/Background/journey.png);
   background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.competitions {
+  background-image: url(contents/Background/comp.jpg);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
